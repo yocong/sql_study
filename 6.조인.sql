@@ -110,7 +110,7 @@ SELECT
 FROM tb_dept D, tb_emp_certi EC, tb_emp E
 WHERE E.dept_cd = D.dept_cd
     AND E.emp_no = EC.emp_no
-GROUP BY D.dept_cd, D.dept_nm -- code에 여러가지 name이 들어갈 수도 있기 때문에 name까지 그룹핑
+GROUP BY D.dept_cd, D.dept_nm -- code와 name이 1대1매칭 되어야하기 때문에 그룹핑
 ORDER BY D.dept_cd
 ;
 

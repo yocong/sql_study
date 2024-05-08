@@ -129,7 +129,7 @@ ORDER BY A.emp_no
 -- 사원이 존재하는 부서 14명
 -- INNER JOIN의 결과 : 사원정보조회 41건
 -- LEFT JOIN : INNER 41건 + 부서가 없는 사원 5 = 46건
--- RIGHT JOIN : INNER 41건 + 사원이 없는 부서 2 = 41건
+-- RIGHT JOIN : INNER 41건 + 사원이 없는 부서 2 = 43건
 -- FULL JOIN : INNER 41 + 5 + 2 =48건
 
 
